@@ -2590,3 +2590,16 @@ body>article {
 	}
 
 }
+
+.equal-height {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.equal-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
